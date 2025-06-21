@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    /* center all content vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full height to center vertically */
+    margin: 0;
+}
+
+.game-container {
+    background-color: rgba(97, 110, 2, 0.1);
+    border: 3px solid white;      /* white border to make a box */
+    border-radius: 16px;          /* slightly rounded corners */
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 30px;                /* space inside the box */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* optional subtle glow */
+    text-align: center;           /* center all text inside the box */
+    width: fit-content;           /* shrink the box to fit its content */
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.move-icon{
+    height:50px;
+
+}
+.move-button{
+    background-color: transparent;
+    border:3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-right:10px;
+    cursor:pointer;
+    
+}
+.result{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.score{
+    margin-top:50px;
+    font-size: 20px;
+}
+.reset-score{
+    padding:8px 15px;
+    background-color: white;
+    border:none;
+    font-size: 15px;
+
+}
+.Auto-play{
+   padding:8px 15px;
+    background-color: white;
+    border:none;
+    font-size: 15px; 
+}
